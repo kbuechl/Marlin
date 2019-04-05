@@ -415,7 +415,7 @@
  */
 #define PIDTEMPBED
 
-#define BED_LIMIT_SWITCHING
+//#define BED_LIMIT_SWITCHING
 
 /**
  * Max Bed Power
@@ -1088,12 +1088,12 @@
  * Override if the automatically selected points are inadequate.
  */
 #if ENABLED(AUTO_BED_LEVELING_3POINT) || ENABLED(AUTO_BED_LEVELING_UBL)
-  #define PROBE_PT_1_X 20
-  #define PROBE_PT_1_Y 160
-  #define PROBE_PT_2_X 20
-  #define PROBE_PT_2_Y 10
-  #define PROBE_PT_3_X 180
-  #define PROBE_PT_3_Y 10
+  //#define PROBE_PT_1_X 20
+  //#define PROBE_PT_1_Y 160
+  //#define PROBE_PT_2_X 20
+  //#define PROBE_PT_2_Y 10
+  //#define PROBE_PT_3_X 180
+  //#define PROBE_PT_3_Y 10
 #endif
 
 /**
